@@ -97,6 +97,7 @@ a {
   background-size: cover;
   box-shadow: 1px 1px 4px 1px #5454549b;
   transition: all 0.6s;
+  width: calc(95% / 3) !important;
 }
 
 .employment .card .card-body {
@@ -203,6 +204,187 @@ footer .hr {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media (max-width: 1200px) {
+  .top-image {
+    position: static !important;
+    clip-path: none !important;
+  }
+  .half-h {
+    height: 100vh !important;
+  }
+  .all-w {
+    width: 100% !important;
+  }
+  .sm-w {
+    width: 85% !important;
+    height: 30rem !important;
+  }
+  .lg-w {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .sm-f-svg {
+    font-size: 40px !important;
+  }
+  .diff-container {
+    width: 92% !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  .sm-employee {
+    height: 22rem !important;
+  }
+  .sm-ps {
+    padding-left: 1rem !important;
+  }
+  .employment .card {
+    width: calc(98% / 3) !important;
+  }
+  .employment .card .card-body {
+    padding-top: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .employment .card .card-body h5 {
+    font-size: 1.15rem !important;
+  }
+  .employment .card:hover .card-body:hover {
+    padding-top: 2rem !important;
+  }
+  .f-col {
+    flex-direction: column !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-control-prev {
+    left: 40px;
+  }
+  .carousel-control-next {
+    right: 40px;
+  }
+  .card-view {
+    width: calc(95% / 2) !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .top-image {
+    position: static !important;
+    clip-path: none !important;
+  }
+  .half-h {
+    height: 100vh !important;
+  }
+  .all-w {
+    width: 100% !important;
+  }
+  .sm-w {
+    width: 85% !important;
+    height: 30rem !important;
+  }
+  .lg-w {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .sm-f-svg {
+    font-size: 40px !important;
+  }
+  .diff-container {
+    width: 92% !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  .sm-employee {
+    height: 22rem !important;
+  }
+
+  .employment .card {
+    width: calc(98% / 2) !important;
+  }
+  .sm-ps {
+    padding-left: 1rem !important;
+  }
+  .employment .card .card-body {
+    padding-top: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .employment .card .card-body h5 {
+    font-size: 1.15rem !important;
+  }
+  .employment .card:hover .card-body:hover {
+    padding-top: 2rem !important;
+  }
+  .f-col {
+    flex-direction: column !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-control-prev {
+    left: 40px;
+  }
+  .carousel-control-next {
+    right: 40px;
+  }
+  .card-view {
+    width: calc(95% / 2) !important;
+  }
+}
+@media (max-width: 768px) {
+  .top-image {
+    position: static !important;
+    clip-path: none !important;
+  }
+  .half-h {
+    height: 100vh !important;
+  }
+  .all-w {
+    width: 100% !important;
+  }
+  .sm-w {
+    width: 85% !important;
+    height: 30rem !important;
+  }
+  .lg-w {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .sm-f-svg {
+    font-size: 40px !important;
+  }
+  .diff-container {
+    width: 92% !important;
+    justify-content: center !important;
+    gap: 0.5rem !important;
+  }
+  .sm-employee {
+    width: calc(98% / 2) !important;
+    height: 22rem !important;
+  }
+  .sm-ps {
+    padding-left: 1rem !important;
+  }
+  .employment .card .card-body {
+    padding-top: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .employment .card .card-body h5 {
+    font-size: 1.15rem !important;
+  }
+  .employment .card:hover .card-body:hover {
+    padding-top: 2rem !important;
+  }
+  .f-col {
+    flex-direction: column !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-control-prev {
+    left: 40px;
+  }
+  .carousel-control-next {
+    right: 40px;
+  }
+  .card-view {
+    width: calc(95% / 2) !important;
+  }
+}
+
 @media (max-width: 576px) {
   .top-image {
     position: static !important;
@@ -227,6 +409,9 @@ footer .hr {
   }
   .diff-container {
     width: 92% !important;
+  }
+  .card-view {
+    width: calc(95% / 2) !important;
   }
   .sm-employee {
     min-width: 15rem !important;
