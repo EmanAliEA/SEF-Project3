@@ -25,6 +25,7 @@ a {
 }
 .carousel img {
   object-fit: cover;
+  opacity: 0.8;
 }
 .carousel-control-prev {
   color: white !important;
@@ -217,7 +218,7 @@ footer .hr {
     clip-path: none !important;
   }
   .half-h {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .all-w {
     width: 100% !important;
@@ -286,7 +287,7 @@ footer .hr {
     clip-path: none !important;
   }
   .half-h {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .all-w {
     width: 100% !important;
@@ -355,7 +356,7 @@ footer .hr {
     clip-path: none !important;
   }
   .half-h {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .all-w {
     width: 100% !important;
@@ -415,14 +416,14 @@ footer .hr {
 @media (max-width: 576px) {
   nav {
     height: 7rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .top-image {
     position: static !important;
     clip-path: none !important;
   }
   .half-h {
-    height: 100vh !important;
+    height: 100% !important;
   }
   .all-w {
     width: 100% !important;
@@ -485,5 +486,17 @@ footer .hr {
   }
   .carousel-item {
     height: 100% !important;
+  }
+  .carousel-caption {
+    height: 27% !important;
+    padding: 0 !important;
+  }
+  .social-links {
+    right: -17px !important;
+  }
+  .navbar-collapse {
+    background-color: white;
+    opacity: 0.75;
+    padding: 16px;
   }
 }
