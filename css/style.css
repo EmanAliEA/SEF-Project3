@@ -23,6 +23,9 @@ a {
 .social-links svg:hover {
   color: #22b6ac !important;
 }
+.carousel img {
+  object-fit: cover;
+}
 .carousel-control-prev {
   color: white !important;
 }
@@ -411,8 +414,8 @@ footer .hr {
 
 @media (max-width: 576px) {
   nav {
-    height: 6rem;
-    font-size: 1.7rem;
+    height: 7rem;
+    font-size: 2rem;
   }
   .top-image {
     position: static !important;
