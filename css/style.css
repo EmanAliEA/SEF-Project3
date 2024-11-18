@@ -1,0 +1,222 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --mainColor: rgb(45, 156, 169);
+  --mainFontColor: rgb(14, 109, 120);
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.navbar img {
+  width: 60px;
+  height: 50px;
+}
+
+.social-links svg {
+  font-size: 60px;
+  color: var(--mainColor);
+}
+.social-links svg:hover {
+  color: #22b6ac !important;
+}
+.carousel-control-prev {
+  color: white !important;
+}
+
+.diff_color {
+  color: var(--mainFontColor);
+}
+.ho-link:hover {
+  background-color: #3cd2ef;
+}
+
+.diff_bg {
+  background-color: var(--mainColor);
+}
+
+.bg_opacity {
+  background-color: rgba(75, 153, 169, 0.318);
+}
+
+.bg-diff,
+.bg-diff2 {
+  background-image: url("../images/background.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+}
+.bg-diff2 {
+  background-image: url("../images/background1.jpeg");
+}
+.card-image {
+  position: relative;
+}
+.card-image::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(75, 153, 169, 0.163);
+  transition: all 1s;
+}
+
+.card-image:hover::after {
+  width: 100%;
+  height: 100%;
+}
+.card-image::before {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 0%;
+  top: 0;
+  left: 0;
+  background-color: rgba(75, 153, 169, 0.163);
+  transition: all 1s;
+}
+
+.card-image:hover::before {
+  width: 100%;
+  height: 100%;
+}
+.cards .row .card {
+  box-shadow: 1px 1px 4px 1px #5454549b;
+  transition: all 1s;
+}
+.employment .card {
+  background: url("../images/employee1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 4px 1px #5454549b;
+  transition: all 0.6s;
+}
+
+.employment .card .card-body {
+  padding-top: 2rem !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(36, 36, 56, 0.929),
+    rgba(40, 40, 59, 0.473)
+  );
+  transition: all 0.7s;
+}
+
+.employment .card:hover {
+  transform: scale(0.9);
+}
+.employment .card:hover .card-body:hover {
+  padding-top: 3.5rem !important;
+  background: linear-gradient(
+    to bottom,
+    rgba(1, 6, 81, 0.722),
+    rgba(1, 1, 102, 0.462)
+  );
+}
+.blue-shadow {
+  box-shadow: 1px 1px 18px 3px #3d727c5c;
+}
+.brown-shadow {
+  box-shadow: 1px 1px 18px 3px #9997586f;
+}
+.news .date::after {
+  content: "";
+  position: absolute;
+  width: 10%;
+  height: 5px;
+  background-color: black;
+  border-radius: 10px;
+  bottom: -5px;
+  left: 0;
+  transition: all 0.8s;
+}
+.news .card:hover .date::after {
+  width: 18%;
+}
+.news .card button:hover {
+  background-color: #0dcaf0 !important;
+}
+.news .card .image {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 21% 100%);
+}
+.news .card .image-reverse {
+  clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+.news .card .image img,
+.news .card .image-reverse img {
+  transition: all 0.8s;
+}
+.news .card:hover .image img,
+.news .card:hover .image-reverse img {
+  transform: scale(1.15);
+}
+.blue-ground {
+  background: linear-gradient(to right, rgba(119, 202, 234, 0.266), white);
+}
+.brown-ground {
+  background: linear-gradient(to left, rgba(233, 211, 114, 0.295), white);
+}
+.news .card.brown-ground button:hover {
+  background-color: rgba(198, 176, 77, 0.622) !important;
+}
+.link-item {
+  background-color: white;
+  box-shadow: 0px 0px 13px 0px #66a8ff;
+  color: #07afd1;
+}
+.foot-title img {
+  box-shadow: 0px 0px 5px 1px white;
+}
+.footer-col {
+  width: calc(98% / 3);
+}
+.foot-list {
+  list-style: none;
+}
+footer .hr {
+  height: 3px;
+  background-color: rgba(255, 255, 255, 0.415);
+}
+.hov-link:hover {
+  color: rgb(111, 111, 111) !important;
+}
+.title-color {
+  background: linear-gradient(
+    to bottom,
+    rgb(112 232 255),
+    rgb(35, 170, 211),
+    rgb(4 107 117)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width: 576px) {
+  .top-image {
+    position: static !important;
+    clip-path: none !important;
+  }
+  .sm-w {
+    width: 85% !important;
+    height: 30rem !important;
+  }
+  .lg-w {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+  .sm-f-svg {
+    font-size: 40px !important;
+  }
+  .sm-employee {
+    min-width: 16rem !important;
+    height: 25rem !important;
+  }
+  .sm-ps {
+    padding-left: 1rem !important;
+  }
+}

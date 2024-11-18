@@ -1,0 +1,1092 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEF_Project3</title>
+    <link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary --bs-primary fixed-top w-100 z-1 bg-opacity-75"
+    >
+      <div class="container-fluid --bs-primary-rgb">
+        <img
+          src="images/211-2110677_about-egypt-egypt-logo.png"
+          alt="logo"
+          class="border rounded mx-2"
+        />
+        <a class="navbar-brand mx-2" href="#">EGYPT</a>
+        <div class="vr mx-1"></div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link diff_color active diff_color"
+                aria-current="page"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link diff_color" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link diff_color dropdown-toggle border border-info rounded-2"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tips
+              </a>
+              <ul class="dropdown-menu opacity-75">
+                <li><a class="dropdown-item diff_color" href="#">CAIRO</a></li>
+                <li><a class="dropdown-item diff_color" href="#">ALEX</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item diff_color" href="#">LUXOR</a>
+                  <a class="dropdown-item diff_color" href="#">ASWAN</a>
+                  <a class="dropdown-item diff_color" href="#"
+                    >SHARM EL SHIKH</a
+                  >
+                  <a class="dropdown-item diff_color" href="#">EL GLALA</a>
+                  <a class="dropdown-item diff_color" href="#">MORE...</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link diff_color disabled" aria-disabled="true"
+                >About</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2 border-info"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-info mx-3" type="submit">Search</button>
+            <!-- <button class="btn btn-info" type="submit">Login</button> -->
+            <!-- Button trigger modal -->
+            <button
+              type="button"
+              class="btn btn-info"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="social-links position-fixed d-flex flex-column gap-2 top-50 end-0 translate-middle z-2"
+    >
+      <i class="fa-brands fa-square-facebook text-info-emphasis sm-f-svg"></i>
+      <i class="fa-brands fa-square-whatsapp text-info-emphasis sm-f-svg"></i>
+      <i class="fa-brands fa-square-twitter text-info-emphasis sm-f-svg"></i>
+      <i class="fa-brands fa-linkedin text-info-emphasis sm-f-svg"></i>
+      <i class="fa-brands fa-square-instagram text-info-emphasis sm-f-svg"></i>
+    </div>
+
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide position-relative"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="0"
+          class="active bg-light"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+          class="bg-light"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+          class="bg-light"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+          class="bg-light"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item vh-100 active" data-bs-interval="10000">
+          <img src="images/cairo1.jpeg" class="d-block w-100" alt="..." />
+          <div
+            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+          >
+            <h5 class="text-light my-3 text-uppercase fs-1">cairo</h5>
+            <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
+              We had such a great time in Egypt!
+            </p>
+            <button class="btn text-capitalize btn-info my-2 mb-3">
+              visit us
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item vh-100" data-bs-interval="2000">
+          <img src="images/aswan.jpeg" class="d-block w-100 v" alt="..." />
+          <div
+            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+          >
+            <h5 class="text-light my-3 text-uppercase fs-1">aswan</h5>
+            <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
+              Thank you, Aswan!
+            </p>
+            <button class="btn text-capitalize btn-info my-2 mb-3">
+              visit us
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item vh-100">
+          <img src="images/sharm.jpg" class="d-block w-100 vh-100" alt="..." />
+          <div
+            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+          >
+            <h5 class="text-light my-3 text-uppercase fs-1">sharm el shikh</h5>
+            <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
+              We love this city!
+            </p>
+            <button class="btn text-capitalize btn-info my-2 mb-3">
+              visit us
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item vh-100">
+          <img
+            src="images/Mont-Galala-Marina.jpg"
+            class="d-block w-100 vh-100"
+            alt="..."
+          />
+          <div
+            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+          >
+            <h5 class="text-light my-3 text-uppercase fs-1">el glalh</h5>
+            <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
+              We love this city!
+            </p>
+            <button class="btn text-capitalize btn-info my-2 mb-3">
+              visit us
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev align-self-center"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="prev"
+      >
+        <span class="fs-2" aria-hidden="true"
+          ><i class="fa-solid fa-chevron-left text-light"></i>
+        </span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next align-self-center"
+        type="button"
+        data-bs-target="#carouselExampleDark"
+        data-bs-slide="next"
+      >
+        <span class="fs-2" aria-hidden="true"
+          ><i class="fa-solid fa-chevron-right text-light"></i
+        ></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header bg-info">
+            <h1 class="modal-title fs-5" id="staticBackdropLabel">Login</h1>
+            <button
+              type="button"
+              class="btn-close bg-info-subtle"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-4">
+            <form>
+              <label for="email" class="text-info">Email address</label><br />
+              <input
+                type="email"
+                id="email"
+                class="w-100 rounded-1 border-info border"
+              /><br />
+              <p class="fs-6">We'll never share your email with anyone else</p>
+              <label for="password" class="text-info">Password</label><br />
+              <input
+                type="password"
+                id="password"
+                class="w-100 rounded-1 border-info border mb-2"
+              /><br />
+              <!-- Rounded switch -->
+              <div class="form-check form-switch">
+                <input
+                  class="form-check-input bg-info"
+                  type="checkbox"
+                  role="switch"
+                  id="flexSwitchCheckChecked"
+                  checked
+                />
+                <label class="form-check-label" for="flexSwitchCheckChecked"
+                  >Remember me</label
+                >
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer d-flex justify-content-between">
+            <button type="button" class="btn btn-info" data-bs-dismiss="modal">
+              Login
+            </button>
+            <button
+              type="button"
+              class="btn btn-info"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card bg_opacity p-2">
+      <div class="card-body">
+        <h5 class="card-title text-uppercase diff_color">welcome</h5>
+        <p class="card-text my-3 w-75">
+          Are you planning to visit Egypt? We offer the ultimate tour in Egypt,
+          covering Cairo, alex. From a one day trip to a 10 day dream vacation,
+          we will take care of all your needs. book hotels 27/7 Customer
+          Service.
+        </p>
+        <a href="#" class="btn btn-info ho-link">Go somewhere</a>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="card text-center fs-2 p-4 diff_bg text-light">
+      Popular destination in Egypt
+    </div>
+
+    <div class="accordion bg_opacity" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg_opacity text-uppercase collapsed r fw-bold fs-5 diff_color"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseOne"
+            aria-expanded="false"
+            aria-controls="collapseOne"
+          >
+            giza city
+          </button>
+        </h2>
+        <div
+          id="collapseOne"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body w-75">
+            Major tourist destinations include the millennia-old monuments in
+            the Nile Valley. Principle among them are the Pyramids and Great
+            Sphinx at Giza.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg_opacity collapsed text-uppercase diff_color fw-bold fs-5"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            luxor city
+          </button>
+        </h2>
+        <div
+          id="collapseTwo"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body w-75">
+            Luxor was the ancient city of Thebes, the capital of Upper Egypt
+            during the New Kingdom, and the city of Amun, later to become the
+            god Amun-Ra. The city was regarded in the ancient Egyptian texts as
+            wAs.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button bg_opacity text-uppercase collapsed diff_color fw-bold fs-5"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            sinai peninsula
+          </button>
+        </h2>
+        <div
+          id="collapseThree"
+          class="accordion-collapse collapse"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body w-75">
+            Sinai has a land area of about 60,000 km2. It is between the
+            Mediterranean Sea to the north and the Red Sea to the south, and is
+            a land bridge between Asia and Africa.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card text-center fs-2 p-4 diff_bg text-light text-capitalize">
+      translate from arabic to english
+    </div>
+
+    <div class="card d-flex flex-column bg_opacity">
+      <div class="card-body">
+        <div class="container-fluid">
+          <p>
+            Write and Translate
+            <a
+              href="#"
+              class="text-uppercase diff_color text-decoration-none fw-bold"
+              >press here</a
+            >
+          </p>
+
+          <div id="liveAlertPlaceholder"></div>
+          <span
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="Copy to Clipboard"
+          >
+            <button
+              type="button"
+              id="liveAlertBtn"
+              class="btn btn-secondary mb-2"
+              data-bs-toggle="popover"
+              data-bs-placement="right"
+              title="copied"
+              onclick="copyfun()"
+            >
+              Copy
+            </button>
+          </span>
+          <br />
+          <textarea
+            placeholder="translate"
+            class="w-100 px-2 border-0"
+            rows="5"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="card text-center fs-2 p-4 diff_bg text-light text-capitalize">
+      translate from arabic to french
+    </div>
+    <div class="card d-flex flex-column bg_opacity">
+      <div class="card-body">
+        <div class="container-fluid">
+          <p>
+            Write and Translate
+            <a
+              href="#"
+              class="text-uppercase diff_color text-decoration-none fw-bold"
+              >press here</a
+            >
+          </p>
+
+          <div id="liveAlertPlaceholder"></div>
+          <span
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="Copy to Clipboard"
+          >
+            <button
+              type="button"
+              id="liveAlertBtn"
+              class="btn btn-secondary mb-2"
+              data-bs-toggle="popover"
+              data-bs-placement="right"
+              title="copied"
+              onclick="copyfun()"
+            >
+              Copy
+            </button>
+          </span>
+          <br />
+          <textarea
+            placeholder="translate"
+            class="w-100 px-2 border-0"
+            rows="5"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="card text-center fs-2 p-4 diff_bg text-light text-capitalize">
+      translate from arabic to german
+    </div>
+    <div class="card d-flex flex-column bg_opacity">
+      <div class="card-body">
+        <div class="container-fluid">
+          <p>
+            Write and Translate
+            <a
+              href="#"
+              class="text-uppercase diff_color text-decoration-none fw-bold"
+              >press here</a
+            >
+          </p>
+
+          <div id="liveAlertPlaceholder"></div>
+          <span
+            data-bs-toggle="tooltip"
+            data-bs-placement="right"
+            title="Copy to Clipboard"
+          >
+            <button
+              type="button"
+              id="liveAlertBtn"
+              class="btn btn-secondary mb-2"
+              data-bs-toggle="popover"
+              data-bs-placement="right"
+              title="copied"
+              onclick="copyfun()"
+            >
+              Copy
+            </button>
+          </span>
+
+          <br />
+          <textarea
+            placeholder="translate"
+            class="w-100 px-2 border-0"
+            rows="5"
+          ></textarea>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div class="w-100 bg-diff2"></div>
+
+    <div class="card text-center fs-2 p-4 diff_bg text-light text-uppercase">
+      Popular destination in Egypt
+    </div>
+
+    <div class="cards p-4 d-grid container gap-5 bg-light">
+      <div class="row gap-5">
+        <div
+          class="card card-image p-3 d-flex flex-column col-1"
+          style="width: 25rem"
+        >
+          <img src="images/background.jpeg" class="card-img-top mb-2" alt="" />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase fs-5">cairo</h5>
+              <p class="card-text">Capital of Egypt</p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+        <div
+          class="card card-image p-3 d-flex d-sm-inline-flex flex-column col-4"
+          style="width: 25rem"
+        >
+          <img
+            src="images/alexCard.jpg"
+            class="card-img-top mb-2 block h-100"
+            alt="..."
+          />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">alexandria</h5>
+              <p class="card-text">The bride of the Mediterranean</p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+        <div
+          class="card card-image p-3 d-flex flex-column col-12"
+          style="width: 25rem"
+        >
+          <img src="images/luxorCard.jpg" class="card-img-top mb-2" alt="" />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">luxor</h5>
+              <p class="card-text">The Capital of the Ancient Kingdom</p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row gap-5">
+        <div
+          class="card card-image p-3 d-flex flex-column col-1"
+          style="width: 25rem"
+        >
+          <img src="images/aswanCard.jpg" class="card-img-top mb-2" alt="" />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">aswan</h5>
+              <p class="card-text">Nubian City in The South of Egypt</p>
+            </div>
+            <a
+              href="#"
+              class="btn btn-info text-capitalize align-self-start align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+        <div
+          class="card card-image p-3 d-flex flex-column col-4"
+          style="width: 25rem"
+        >
+          <img
+            src="images/newCapitalCard.jpg"
+            class="card-img-top mb-2"
+            alt="..."
+          />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">new capital</h5>
+              <p class="card-text text-uppercase">
+                the new adminstrative capital
+              </p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+        <div
+          class="card card-image p-3 d-flex flex-column col-12"
+          style="width: 25rem"
+        >
+          <img src="images/sharmCard.jpg" class="card-img-top mb-2" alt="..." />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">
+                sharm el sheikh
+              </h5>
+              <p class="card-text">Beautiful City in Egypt</p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="row gap-5 mb-5">
+        <div
+          class="card card-image p-3 d-flex flex-column col-lg-3 mx-lg-auto ms-sm-0 mb-lg-0 mb-sm-3"
+          style="width: 25rem"
+        >
+          <img src="images/siwaCard.jpeg" class="card-img-top mb-2" alt="..." />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start">
+              <h5 class="card-title text-uppercase w-75 fs-5">siwa</h5>
+              <p class="card-text text-capitalize">sunset oasis</p>
+            </div>
+            <a
+              href="#"
+              class="btn btn-info text-capitalize align-self-start align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+        <div
+          class="card card-image p-3 d-flex flex-column mx-lg-auto col-lg-9"
+          style="width: 25rem"
+        >
+          <img
+            src="images/hurghadaCard.jpg"
+            class="card-img-top mb-2"
+            alt="..."
+          />
+          <div
+            class="card-body d-flex align-items-center justify-content-between"
+          >
+            <div class="text align-self-start w-50">
+              <h5 class="card-title text-uppercase w-75 fs-5">hurghada</h5>
+              <p class="card-text">City on The Red Sea</p>
+            </div>
+            <a href="#" class="btn btn-info text-capitalize align-self-start"
+              >know more</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="w-100 bg-diff"></div>
+    <hr />
+    <div class="card text-center fs-2 p-4 diff_bg text-light text-uppercase">
+      thanks for
+    </div>
+
+    <div
+      class="employment p-5 my-2 d-flex flex-wrap justify-content-between container"
+    >
+      <div
+        class="card rounded-5 mb-3 d-sm-block sm-employee"
+        style="min-width: 23rem; height: 27rem"
+      >
+        <div
+          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+        >
+          <div class="cardHead">
+            <h5 class="card-titletext-light">All thanks and appreciation</h5>
+            <h6 class="card-subtitle mb-5 text-body-secondary text-light">
+              <i class="fa-regular fa-clock text-light"></i>
+              <span class="text-light">October 15,2020</span>
+            </h6>
+          </div>
+
+          <div class="cardend">
+            <img
+              src="images/employee1.jpeg"
+              alt=""
+              class="mt-5 rounded-circle img-fluid border-2 border border-light mb-1"
+              style="width: 4.5rem; height: 7rem"
+            /><br />
+            <span class="text-capitalize">eng. mohammed ismail</span>
+            <p>Director of UI/UX</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card rounded-5 mb-3 sm-employee"
+        style="min-width: 23rem; height: 27rem"
+      >
+        <div
+          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+        >
+          <div class="cardHead">
+            <h5 class="card-titletext-light">All thanks and appreciation</h5>
+            <h6 class="card-subtitle mb-5 text-body-secondary text-light">
+              <i class="fa-regular fa-clock text-light"></i>
+              <span class="text-light">October 15,2020</span>
+            </h6>
+          </div>
+
+          <div class="cardend">
+            <img
+              src="images/employee1.jpeg"
+              alt=""
+              class="mt-5 rounded-circle img-fluid border-2 border border-light mb-1"
+              style="width: 4.5rem; height: 7rem"
+            /><br />
+            <span class="text-capitalize">eng. mohammed ismail</span>
+            <p>Director of UI/UX</p>
+          </div>
+        </div>
+      </div>
+      <div
+        class="card rounded-5 mb-3 sm-employee"
+        style="min-width: 23rem; height: 27rem"
+      >
+        <div
+          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+        >
+          <div class="cardHead">
+            <h5 class="card-titletext-light">All thanks and appreciation</h5>
+            <h6 class="card-subtitle mb-5 text-body-secondary text-light">
+              <i class="fa-regular fa-clock text-light"></i>
+              <span class="text-light">October 15,2020</span>
+            </h6>
+          </div>
+
+          <div class="cardend">
+            <img
+              src="images/employee1.jpeg"
+              alt=""
+              class="mt-5 rounded-circle img-fluid border-2 border border-light mb-1"
+              style="width: 4.5rem; height: 7rem"
+            /><br />
+            <span class="text-capitalize">eng. mohammed ismail</span>
+            <p>Director of UI/UX</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+    <h2 class="text-uppercase text-center title-color">egypt news</h2>
+    <div
+      class="news d-flex flex-column align-items-center gap-5 justify-content-center w-100 my-5"
+    >
+      <div
+        class="card w-75 overflow-hidden position-relative sm-w blue-ground blue-shadow"
+      >
+        <div
+          class="image w-25 h-100 overflow-hidden rounded-start-0 position-absolute card-img-top end-0 top-image d-sm-block lg-w"
+        >
+          <img src="images/sharm.jpg" class="w-100 h-100" />
+        </div>
+        <div class="card-body w-75 my-5 ms-5 mw-100 overflow-hidden lg-w">
+          <h5 class="card-title text-capitalize fs-3">podcast title</h5>
+          <p class="date position-relative">
+            <i class="fa-solid fa-calendar-days"></i> Mon, May 25th 2020
+          </p>
+          <p class="card-text mb-5 w-75 lg-w">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat cumque nobis facilis totam nemo aperiam voluptatibus animi
+            quo eos tempore eum, blanditiis ducimus molestias mollitia illum
+            veritatis! Cumque, eligendi blanditiis ducimus molestias mollitia
+            illum veritatis! Cumque, eligendi.
+          </p>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-podcast text-dark"></i> podcast
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25"
+          >
+            <i class="fa-solid fa-clock text-dark"></i> 55 mins
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-play text-dark"></i> play episode
+          </button>
+        </div>
+      </div>
+      <div
+        class="card w-75 overflow-hidden d-flex position-relative sm-w brown-ground brown-shadow"
+      >
+        <div
+          class="image-reverse w-25 h-100 overflow-hidden position-absolute rounded-end-0 card-img-top start-0 top-image d-sm-block lg-w"
+        >
+          <img src="images/alexCard.jpg" class="w-100 h-100" />
+        </div>
+        <div
+          class="card-body w-75 my-5 ms-5 ps-5 sm-ps mw-100 overflow-hidden lg-w align-self-end"
+        >
+          <h5 class="card-title text-capitalize fs-3">podcast title</h5>
+          <p class="date position-relative">
+            <i class="fa-solid fa-calendar-days"></i> Mon, May 25th 2020
+          </p>
+          <p class="card-text mb-5 w-75 lg-w">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat cumque nobis facilis totam nemo aperiam voluptatibus animi
+            quo eos tempore eum, blanditiis ducimus molestias mollitia illum
+            veritatis! Cumque, eligendi blanditiis ducimus molestias mollitia
+            illum veritatis! Cumque, eligendi.
+          </p>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-podcast text-dark"></i> podcast
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25"
+          >
+            <i class="fa-solid fa-clock text-dark"></i> 55 mins
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-play text-dark"></i> play episode
+          </button>
+        </div>
+      </div>
+      <div
+        class="card w-75 overflow-hidden position-relative sm-w blue-ground blue-shadow"
+      >
+        <div
+          class="image w-25 h-100 overflow-hidden rounded-start-0 position-absolute card-img-top end-0 top-image d-sm-block lg-w"
+        >
+          <img src="images/aswan.jpeg" class="w-100 h-100" />
+        </div>
+        <div class="card-body w-75 my-5 ms-5 mw-100 overflow-hidden lg-w">
+          <h5 class="card-title text-capitalize fs-3">podcast title</h5>
+          <p class="date position-relative">
+            <i class="fa-solid fa-calendar-days"></i> Mon, May 25th 2020
+          </p>
+          <p class="card-text mb-5 w-75 lg-w">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat cumque nobis facilis totam nemo aperiam voluptatibus animi
+            quo eos tempore eum, blanditiis ducimus molestias mollitia illum
+            veritatis! Cumque, eligendi blanditiis ducimus molestias mollitia
+            illum veritatis! Cumque, eligendi.
+          </p>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-podcast text-dark"></i> podcast
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25"
+          >
+            <i class="fa-solid fa-clock text-dark"></i> 55 mins
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-play text-dark"></i> play episode
+          </button>
+        </div>
+      </div>
+      <div
+        class="card w-75 overflow-hidden d-flex position-relative sm-w brown-ground brown-shadow"
+      >
+        <div
+          class="image-reverse w-25 h-100 overflow-hidden position-absolute rounded-end-0 card-img-top start-0 top-image d-sm-block lg-w"
+        >
+          <img src="images/cairo.jpeg" class="w-100 h-100" />
+        </div>
+        <div
+          class="card-body w-75 my-5 ms-5 ps-5 sm-ps mw-100 overflow-hidden lg-w align-self-end"
+        >
+          <h5 class="card-title text-capitalize fs-3">podcast title</h5>
+          <p class="date position-relative">
+            <i class="fa-solid fa-calendar-days"></i> Mon, May 25th 2020
+          </p>
+          <p class="card-text mb-5 w-75 lg-w">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            repellat cumque nobis facilis totam nemo aperiam voluptatibus animi
+            quo eos tempore eum, blanditiis ducimus molestias mollitia illum
+            veritatis! Cumque, eligendi blanditiis ducimus molestias mollitia
+            illum veritatis! Cumque, eligendi.
+          </p>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-podcast text-dark"></i> podcast
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25"
+          >
+            <i class="fa-solid fa-clock text-dark"></i> 55 mins
+          </button>
+          <button
+            class="btn border-1 py-1 bg-secondary bg-gradient bg-opacity-25 text-capitalize"
+          >
+            <i class="fa-solid fa-play text-dark"></i> play episode
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="text-uppercase text-center my-4 title-color">join us</h2>
+    <div
+      class="link-items d-flex justify-content-evenly flex-wrap container my-5"
+    >
+      <div class="link-item mb-4 py-3 px-5 text-center rounded-3">
+        <p class="text-capitalize fs-4">subscribe now</p>
+        <img
+          src="images/twitter-icon-removebg-preview.png"
+          style="height: 5rem"
+          alt="twitter-icon"
+        />
+        <p class="fs-5">Go to Link</p>
+      </div>
+      <div class="link-item mb-4 py-3 px-5 text-center rounded-3">
+        <p class="text-capitalize fs-4">subscribe now</p>
+        <img
+          src="images/whatsapp-icon.png"
+          style="height: 5rem"
+          alt="twitter-icon"
+        />
+        <p class="fs-5">Go to Link</p>
+      </div>
+      <div class="link-item mb-4 py-3 px-5 text-center rounded-3">
+        <p class="text-capitalize fs-4">subscribe now</p>
+        <img
+          src="images/linkedin-icon.png"
+          style="height: 5rem"
+          alt="twitter-icon"
+        />
+        <p class="fs-5">Go to Link</p>
+      </div>
+      <div class="link-item mb-4 py-3 px-5 text-center rounded-3">
+        <p class="text-capitalize fs-4">subscribe now</p>
+        <img
+          src="images/instegram-icon.png"
+          style="height: 5rem"
+          alt="twitter-icon"
+        />
+        <p class="fs-5">Go to Link</p>
+      </div>
+    </div>
+
+    <footer class="bg-info px-3 py-1">
+      <div
+        class="cols d-flex justify-content-between justify-content-between flex-wrap align-items-center mb-5"
+      >
+        <div class="footer-col text-center">
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <div
+            class="foot-title d-flex gap-2 align-items-center justify-content-center"
+          >
+            <img
+              src="images/211-2110677_about-egypt-egypt-logo.png"
+              alt="logo"
+              class="rounded-circle"
+              style="width: 5rem; height: 5rem"
+            />
+            <p class="text-capitalize fs-5 text-light">good company</p>
+          </div>
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <ul class="foot-list d-flex flex-column gap-2">
+            <li class="foot-item text-capitalize">tel:000-000-000</li>
+            <li class="foot-item text-capitalize">address:egypt</li>
+            <li class="foot-item text-capitalize">fax:000-000-000</li>
+          </ul>
+        </div>
+        <div class="footer-col text-center">
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <div
+            class="foot-title d-flex gap-2 align-items-center justify-content-center"
+          >
+            <img
+              src="images/211-2110677_about-egypt-egypt-logo.png"
+              alt="logo"
+              class="rounded-circle"
+              style="width: 5rem; height: 5rem"
+            />
+            <p class="text-capitalize fs-5 text-light">important links</p>
+          </div>
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <ul class="foot-list d-flex flex-column gap-2">
+            <li class="foot-item text-capitalize">
+              <a href="#" class="text-black hov-link">visit us</a>
+            </li>
+            <li class="foot-item text-capitalize">
+              <a href="#" class="text-black hov-link">take alook</a>
+            </li>
+            <li class="foot-item">
+              <a href="#" class="text-black hov-link"
+                >your health is more important</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col text-center">
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <div
+            class="foot-title d-flex gap-2 align-items-center justify-content-center"
+          >
+            <img
+              src="images/211-2110677_about-egypt-egypt-logo.png"
+              alt="logo"
+              class="rounded-circle"
+              style="width: 5rem; height: 5rem"
+            />
+            <p class="text-capitalize fs-5 text-light">vision</p>
+          </div>
+          <div class="hr w-100 rounded-3 my-3"></div>
+          <ul class="foot-list d-flex flex-column gap-2">
+            <li class="foot-item text-capitalize">Services for all</li>
+            <li class="foot-item text-capitalize">Provide best services</li>
+            <li class="foot-item">you will be better than before</li>
+          </ul>
+        </div>
+      </div>
+      <div class="hr my-4"></div>
+      <p class="text-uppercase text-center fs-4 text-light">
+        copyright &copy; 2020 shimaahussien el said good company all rights
+      </p>
+    </footer>
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+      var tooltipTriggerList = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="tooltip"]')
+      );
+      var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+      });
+
+      var popoverListTrigger = [].slice.call(
+        document.querySelectorAll('[data-bs-toggle="popover"]')
+      );
+      var popoverList = popoverListTrigger.map(function (popoverEl) {
+        return new bootstrap.Popover(popoverEl);
+      });
+      function copyfun() {
+        alert("تم نسخ النص");
+      }
+    </script>
+  </body>
+</html>
