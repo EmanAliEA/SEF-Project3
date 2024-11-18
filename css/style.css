@@ -489,7 +489,7 @@ footer .hr {
     height: 100% !important;
   }
   .carousel-caption {
-    height: 23% !important;
+    height: 30% !important;
     padding: 0 !important;
   }
   .carousel-caption h5 {
@@ -500,7 +500,7 @@ footer .hr {
   }
   .social-links {
     right: -17px !important;
-    transform: translate(-50%, -41%) !important;
+    transform: translate(-50%, -35%) !important;
   }
   .navbar-collapse {
     background-color: white;
