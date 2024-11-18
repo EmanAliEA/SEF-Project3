@@ -489,8 +489,14 @@ footer .hr {
     height: 100% !important;
   }
   .carousel-caption {
-    height: 30% !important;
+    height: 23% !important;
     padding: 0 !important;
+  }
+  .carousel-caption h5 {
+    margin-bottom: 0 !important;
+  }
+  .carousel-caption p {
+    margin: 1px 0 !important;
   }
   .social-links {
     right: -17px !important;
