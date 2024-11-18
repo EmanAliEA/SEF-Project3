@@ -205,6 +205,10 @@ footer .hr {
   -webkit-text-fill-color: transparent;
 }
 @media (max-width: 1200px) {
+  nav {
+    height: 6rem;
+    font-size: 1.7rem;
+  }
   .top-image {
     position: static !important;
     clip-path: none !important;
@@ -224,7 +228,7 @@ footer .hr {
     margin: 0 !important;
   }
   .sm-f-svg {
-    font-size: 40px !important;
+    font-size: 90px !important;
   }
   .diff-container {
     width: 92% !important;
@@ -251,8 +255,12 @@ footer .hr {
     padding-top: 2rem !important;
   }
   .f-col {
-    flex-direction: column !important;
+    flex-direction: row !important;
+    justify-content: center;
     margin-bottom: 0 !important;
+  }
+  .footer-col {
+    width: calc(90% / 3) !important;
   }
   .carousel-control-prev {
     left: 40px;
@@ -266,6 +274,10 @@ footer .hr {
 }
 
 @media (max-width: 992px) {
+  nav {
+    height: 6rem;
+    font-size: 1.7rem;
+  }
   .top-image {
     position: static !important;
     clip-path: none !important;
@@ -285,7 +297,7 @@ footer .hr {
     margin: 0 !important;
   }
   .sm-f-svg {
-    font-size: 40px !important;
+    font-size: 75px !important;
   }
   .diff-container {
     width: 92% !important;
@@ -313,8 +325,12 @@ footer .hr {
     padding-top: 2rem !important;
   }
   .f-col {
-    flex-direction: column !important;
+    flex-direction: row !important;
+    justify-content: center;
     margin-bottom: 0 !important;
+  }
+  .footer-col {
+    width: calc(90% / 2) !important;
   }
   .carousel-control-prev {
     left: 40px;
@@ -327,6 +343,10 @@ footer .hr {
   }
 }
 @media (max-width: 768px) {
+  nav {
+    height: 6rem;
+    font-size: 1.7rem;
+  }
   .top-image {
     position: static !important;
     clip-path: none !important;
@@ -346,7 +366,7 @@ footer .hr {
     margin: 0 !important;
   }
   .sm-f-svg {
-    font-size: 40px !important;
+    font-size: 65px !important;
   }
   .diff-container {
     width: 92% !important;
@@ -371,8 +391,12 @@ footer .hr {
     padding-top: 2rem !important;
   }
   .f-col {
-    flex-direction: column !important;
+    flex-direction: row !important;
+    justify-content: center;
     margin-bottom: 0 !important;
+  }
+  .footer-col {
+    width: calc(90% / 2) !important;
   }
   .carousel-control-prev {
     left: 40px;
@@ -386,6 +410,10 @@ footer .hr {
 }
 
 @media (max-width: 576px) {
+  nav {
+    height: 6rem;
+    font-size: 1.7rem;
+  }
   .top-image {
     position: static !important;
     clip-path: none !important;
@@ -405,13 +433,16 @@ footer .hr {
     margin: 0 !important;
   }
   .sm-f-svg {
-    font-size: 40px !important;
+    font-size: 50px !important;
   }
   .diff-container {
     width: 92% !important;
   }
   .card-view {
-    width: calc(95% / 2) !important;
+    width: 100% !important;
+  }
+  .employment .card {
+    width: 100% !important;
   }
   .sm-employee {
     min-width: 15rem !important;
@@ -423,6 +454,9 @@ footer .hr {
   .employment .card .card-body {
     padding-top: 1rem !important;
     font-size: 0.9rem !important;
+  }
+  .employment .card:hover {
+    transform: scale(0.98);
   }
   .employment .card .card-body h5 {
     font-size: 1.15rem !important;
@@ -439,5 +473,14 @@ footer .hr {
   }
   .carousel-control-next {
     right: 40px;
+  }
+  .carousel {
+    height: 69vh !important;
+  }
+  .carousel-inner {
+    height: 100% !important;
+  }
+  .carousel-item {
+    height: 100% !important;
   }
 }
