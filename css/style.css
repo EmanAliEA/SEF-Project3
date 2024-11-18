@@ -180,6 +180,12 @@ a {
 .foot-list {
   list-style: none;
 }
+.w-80 {
+  width: 80%;
+}
+.card-view {
+  width: calc(95% / 3) !important;
+}
 footer .hr {
   height: 3px;
   background-color: rgba(255, 255, 255, 0.415);
