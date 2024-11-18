@@ -507,4 +507,8 @@ footer .hr {
     opacity: 0.75;
     padding: 16px;
   }
+  .title-color {
+    background-image: none;
+    color: #046b75;
+  }
 }
