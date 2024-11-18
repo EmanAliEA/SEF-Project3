@@ -199,7 +199,7 @@ footer .hr {
 .hov-link:hover {
   color: rgb(111, 111, 111) !important;
 }
-.title-color {
+/* .title-color {
   background: linear-gradient(
     to bottom,
     rgb(112 232 255),
@@ -208,7 +208,7 @@ footer .hr {
   );
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} */
 @media (max-width: 1200px) {
   nav {
     height: 6rem;
@@ -507,8 +507,8 @@ footer .hr {
     opacity: 0.75;
     padding: 16px;
   }
-  .title-color {
-    background-color: white;
+  /* .title-color {
+    background: white;
     color: #046b75;
-  }
+  } */
 }
