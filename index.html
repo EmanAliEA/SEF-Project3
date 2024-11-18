@@ -142,11 +142,15 @@
           class="bg-light"
         ></button>
       </div>
-      <div class="carousel-inner">
+      <div class="carousel-inner all-w w-100">
         <div class="carousel-item vh-100 active" data-bs-interval="10000">
-          <img src="images/cairo1.jpeg" class="d-block w-100" alt="..." />
+          <img
+            src="images/cairo1.jpeg"
+            class="d-block w-100 half-h"
+            alt="..."
+          />
           <div
-            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+            class="carousel-caption d-s m-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
           >
             <h5 class="text-light my-3 text-uppercase fs-1">cairo</h5>
             <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
@@ -158,9 +162,9 @@
           </div>
         </div>
         <div class="carousel-item vh-100" data-bs-interval="2000">
-          <img src="images/aswan.jpeg" class="d-block w-100 v" alt="..." />
+          <img src="images/aswan.jpeg" class="d-block w-100 half-h" alt="..." />
           <div
-            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+            class="carousel-caption d-s m-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
           >
             <h5 class="text-light my-3 text-uppercase fs-1">aswan</h5>
             <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
@@ -172,9 +176,9 @@
           </div>
         </div>
         <div class="carousel-item vh-100">
-          <img src="images/sharm.jpg" class="d-block w-100 vh-100" alt="..." />
+          <img src="images/sharm.jpg" class="d-block w-100 half-h" alt="..." />
           <div
-            class="carousel-caption d-sm-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
+            class="carousel-caption d-s m-block p-1 d-md-block bg-info bg-gradient bg-opacity-50 p-3 rounded-2"
           >
             <h5 class="text-light my-3 text-uppercase fs-1">sharm el shikh</h5>
             <p class="text-light d-sm-block fs-6 my-0 d-md-block fs-5 my-3">
@@ -188,7 +192,7 @@
         <div class="carousel-item vh-100">
           <img
             src="images/Mont-Galala-Marina.jpg"
-            class="d-block w-100 vh-100"
+            class="d-block w-100 half-h vh-100"
             alt="..."
           />
           <div
@@ -703,14 +707,14 @@
     </div>
 
     <div
-      class="employment p-5 my-2 d-flex flex-wrap justify-content-between container"
+      class="employment p-5 my-2 d-flex flex-wrap justify-content-between container diff-container"
     >
       <div
-        class="card rounded-5 mb-3 d-sm-block sm-employee"
+        class="card rounded-5 mb-3 sm-employee"
         style="min-width: 23rem; height: 27rem"
       >
         <div
-          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+          class="card-body rounded-5 p-4 w-100 h-100 d-flex flex-column justify-content-between text-light"
         >
           <div class="cardHead">
             <h5 class="card-titletext-light">All thanks and appreciation</h5>
@@ -737,7 +741,7 @@
         style="min-width: 23rem; height: 27rem"
       >
         <div
-          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+          class="card-body rounded-5 p-4 w-100 h-100 d-flex flex-column justify-content-between text-light"
         >
           <div class="cardHead">
             <h5 class="card-titletext-light">All thanks and appreciation</h5>
@@ -764,7 +768,7 @@
         style="min-width: 23rem; height: 27rem"
       >
         <div
-          class="card-body rounded-5 p-4 w-100 d-flex flex-column justify-content-between text-light"
+          class="card-body rounded-5 p-4 w-100 h-100 d-flex flex-column justify-content-between text-light"
         >
           <div class="cardHead">
             <h5 class="card-titletext-light">All thanks and appreciation</h5>
@@ -989,11 +993,11 @@
       </div>
     </div>
 
-    <footer class="bg-info px-3 py-1">
+    <footer class="bg-info px-3 py-1 d-flex flex-column flex-wrap">
       <div
-        class="cols d-flex justify-content-between justify-content-between flex-wrap align-items-center mb-5"
+        class="cols d-flex justify-content-evenly flex-wrap align-items-center mb-5 f-col"
       >
-        <div class="footer-col text-center">
+        <div class="footer-col text-center all-w">
           <div class="hr w-100 rounded-3 my-3"></div>
           <div
             class="foot-title d-flex gap-2 align-items-center justify-content-center"
@@ -1013,7 +1017,7 @@
             <li class="foot-item text-capitalize">fax:000-000-000</li>
           </ul>
         </div>
-        <div class="footer-col text-center">
+        <div class="footer-col text-center all-w">
           <div class="hr w-100 rounded-3 my-3"></div>
           <div
             class="foot-title d-flex gap-2 align-items-center justify-content-center"
@@ -1041,7 +1045,7 @@
             </li>
           </ul>
         </div>
-        <div class="footer-col text-center">
+        <div class="footer-col text-center all-w">
           <div class="hr w-100 rounded-3 my-3"></div>
           <div
             class="foot-title d-flex gap-2 align-items-center justify-content-center"
@@ -1066,6 +1070,7 @@
       <p class="text-uppercase text-center fs-4 text-light">
         copyright &copy; 2020 shimaahussien el said good company all rights
       </p>
+      <div class="hr mb-4"></div>
     </footer>
 
     <script src="js/all.min.js"></script>

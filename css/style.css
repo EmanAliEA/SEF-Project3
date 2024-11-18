@@ -90,6 +90,7 @@ a {
   box-shadow: 1px 1px 4px 1px #5454549b;
   transition: all 1s;
 }
+
 .employment .card {
   background: url("../images/employee1.jpeg");
   background-repeat: no-repeat;
@@ -201,6 +202,12 @@ footer .hr {
     position: static !important;
     clip-path: none !important;
   }
+  .half-h {
+    height: 100vh !important;
+  }
+  .all-w {
+    width: 100% !important;
+  }
   .sm-w {
     width: 85% !important;
     height: 30rem !important;
@@ -212,11 +219,34 @@ footer .hr {
   .sm-f-svg {
     font-size: 40px !important;
   }
+  .diff-container {
+    width: 92% !important;
+  }
   .sm-employee {
-    min-width: 16rem !important;
-    height: 25rem !important;
+    min-width: 15rem !important;
+    height: 22rem !important;
   }
   .sm-ps {
     padding-left: 1rem !important;
+  }
+  .employment .card .card-body {
+    padding-top: 1rem !important;
+    font-size: 0.9rem !important;
+  }
+  .employment .card .card-body h5 {
+    font-size: 1.15rem !important;
+  }
+  .employment .card:hover .card-body:hover {
+    padding-top: 2rem !important;
+  }
+  .f-col {
+    flex-direction: column !important;
+    margin-bottom: 0 !important;
+  }
+  .carousel-control-prev {
+    left: 40px;
+  }
+  .carousel-control-next {
+    right: 40px;
   }
 }
