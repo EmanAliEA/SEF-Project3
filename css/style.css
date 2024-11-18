@@ -267,12 +267,12 @@ footer .hr {
   .footer-col {
     width: calc(90% / 3) !important;
   }
-  .carousel-control-prev {
+  /* .carousel-control-prev {
     left: 40px;
   }
   .carousel-control-next {
     right: 40px;
-  }
+  } */
   .card-view {
     width: calc(95% / 2) !important;
   }
@@ -337,12 +337,12 @@ footer .hr {
   .footer-col {
     width: calc(90% / 2) !important;
   }
-  .carousel-control-prev {
+  /* .carousel-control-prev {
     left: 40px;
   }
   .carousel-control-next {
     right: 40px;
-  }
+  } */
   .card-view {
     width: calc(95% / 2) !important;
   }
@@ -403,12 +403,12 @@ footer .hr {
   .footer-col {
     width: calc(90% / 2) !important;
   }
-  .carousel-control-prev {
+  /* .carousel-control-prev {
     left: 40px;
   }
   .carousel-control-next {
     right: 40px;
-  }
+  } */
   .card-view {
     width: calc(95% / 2) !important;
   }
@@ -473,12 +473,12 @@ footer .hr {
     flex-direction: column !important;
     margin-bottom: 0 !important;
   }
-  .carousel-control-prev {
+  /* .carousel-control-prev {
     left: 40px;
   }
   .carousel-control-next {
     right: 40px;
-  }
+  } */
   .carousel {
     height: 69vh !important;
   }
@@ -500,7 +500,7 @@ footer .hr {
   }
   .social-links {
     right: -17px !important;
-    transform: translate(-50%, -35%) !important;
+    transform: translate(-50%, -25%) !important;
   }
   .navbar-collapse {
     background-color: white;
