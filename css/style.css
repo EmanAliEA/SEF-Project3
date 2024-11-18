@@ -508,7 +508,7 @@ footer .hr {
     padding: 16px;
   }
   .title-color {
-    background-image: none;
+    -webkit-text-fill-color: unset;
     color: #046b75;
   }
 }
