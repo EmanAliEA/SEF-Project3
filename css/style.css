@@ -71,7 +71,9 @@ a {
   background-color: rgba(75, 153, 169, 0.163);
   transition: all 1s;
 }
-
+.change-op {
+  opacity: 1;
+}
 .card-image:hover::after {
   width: 100%;
   height: 100%;
@@ -210,6 +212,9 @@ footer .hr {
   -webkit-text-fill-color: transparent;
 } */
 @media (max-width: 1200px) {
+  .change-op {
+    opacity: 1;
+  }
   nav {
     height: 6rem;
     font-size: 1.7rem;
@@ -279,6 +284,9 @@ footer .hr {
 }
 
 @media (max-width: 992px) {
+  .change-op {
+    opacity: 1;
+  }
   nav {
     height: 6rem;
     font-size: 1.7rem;
@@ -348,6 +356,9 @@ footer .hr {
   }
 }
 @media (max-width: 768px) {
+  .change-op {
+    opacity: 1;
+  }
   nav {
     height: 6rem;
     font-size: 1.7rem;
@@ -415,6 +426,9 @@ footer .hr {
 }
 
 @media (max-width: 576px) {
+  .change-op {
+    opacity: 1;
+  }
   nav {
     height: 6rem;
     font-size: 1.3rem;
